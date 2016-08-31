@@ -1,0 +1,1235 @@
+Apache Maven 3.3.9 (bb52d8502b132ec0a5a3f4c09453c07478323dc5; 2015-11-10T18:41:47+02:00)
+Maven home: C:\Casino\apache-maven-3.3.9
+Java version: 9-ea, vendor: Oracle Corporation
+Java home: C:\Casino\jdk-9
+Default locale: en_US, platform encoding: Cp1257
+OS name: "windows 8.1", version: "6.3", arch: "amd64", family: "dos"
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: javax.enterprise.inject.* < plexus.core
+[DEBUG]   Imported: javax.enterprise.util.* < plexus.core
+[DEBUG]   Imported: javax.inject.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+[DEBUG]   Imported: org.apache.maven.cli < plexus.core
+[DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.exception < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution.scope < plexus.core
+[DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+[DEBUG]   Imported: org.apache.maven.model < plexus.core
+[DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+[DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+[DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+[DEBUG]   Imported: org.apache.maven.project < plexus.core
+[DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+[DEBUG]   Imported: org.apache.maven.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG]   Imported: org.apache.maven.toolchain < plexus.core
+[DEBUG]   Imported: org.apache.maven.usability < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.events < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.observers < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.resource < plexus.core
+[DEBUG]   Imported: org.codehaus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.* < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.component < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.configuration < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.container < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.context < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.logging < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.* < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.artifact < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.collection < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.deployment < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.graph < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.installation < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.internal.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.metadata < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.repository < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.resolution < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.spi < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.transfer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.version < plexus.core
+[DEBUG]   Imported: org.slf4j.* < plexus.core
+[DEBUG]   Imported: org.slf4j.helpers.* < plexus.core
+[DEBUG]   Imported: org.slf4j.spi.* < plexus.core
+[DEBUG] Populating class realm maven.api
+[INFO] Error stacktraces are turned on.
+[DEBUG] Reading global settings from C:\Casino\apache-maven-3.3.9\conf\settings.xml
+[DEBUG] Reading user settings from C:\Users\andriyka\.m2\settings.xml
+[DEBUG] Reading global toolchains from C:\Casino\apache-maven-3.3.9\conf\toolchains.xml
+[DEBUG] Reading user toolchains from C:\Users\andriyka\.m2\toolchains.xml
+[DEBUG] Using local repository at C:\Users\andriyka\.m2\repository
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for C:\Users\andriyka\.m2\repository
+[INFO] Scanning for projects...
+[DEBUG] Using mirror playtech.mirror (https://nexus.playtech.corp/nexus/content/groups/public) for central (https://repo.maven.apache.org/maven2).
+[DEBUG] Extension realms for project org.openexchange:jsonschema2pojo-plugin-jdk9:pom:1.0.0-SNAPSHOT: (none)
+[DEBUG] Looking up lifecyle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project org.springframework.boot:spring-boot-starter-parent:pom:1.4.0.RELEASE: (none)
+[DEBUG] Looking up lifecyle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project org.springframework.boot:spring-boot-dependencies:pom:1.4.0.RELEASE: (none)
+[DEBUG] Looking up lifecyle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project org.openexchange:pojo:jar:1.0.0-SNAPSHOT: (none)
+[DEBUG] Looking up lifecyle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] jsonschema2pojo-plugin-jdk9 ::: jsonschema2pojo-plugin-jdk9
+[INFO] openexchange ::: pojo
+[DEBUG] === REACTOR BUILD PLAN ================================================
+[DEBUG] Project: org.openexchange:jsonschema2pojo-plugin-jdk9:pom:1.0.0-SNAPSHOT
+[DEBUG] Tasks:   [clean, install]
+[DEBUG] Style:   Regular
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Project: org.openexchange:pojo:jar:1.0.0-SNAPSHOT
+[DEBUG] Tasks:   [clean, install]
+[DEBUG] Style:   Regular
+[DEBUG] =======================================================================
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building jsonschema2pojo-plugin-jdk9 ::: jsonschema2pojo-plugin-jdk9 1.0.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Using mirror playtech.mirror (https://nexus.playtech.corp/nexus/content/groups/public) for ossrh-snapshots (http://oss.sonatype.org/content/repositories/snapshots).
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Using mirror playtech.mirror (https://nexus.playtech.corp/nexus/content/groups/public) for apache.snapshots (http://repository.apache.org/snapshots).
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       org.openexchange:jsonschema2pojo-plugin-jdk9:1.0.0-SNAPSHOT
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): []
+[DEBUG] Repositories (dependencies): [pt-releases (https://nexus.playtech.corp/nexus/content/groups/pt-releases, default, releases), pt-snapshots (https://nexus.playtech.corp/nexus/content/groups/pt-snapshots, default, snapshots), playtech.mirror (https://nexus.playtech.corp/nexus/content/groups/public, default, releases)]
+[DEBUG] Repositories (plugins)     : [pt-releases (https://nexus.playtech.corp/nexus/content/groups/pt-releases, default, releases), pt-snapshots (https://nexus.playtech.corp/nexus/content/groups/pt-snapshots, default, snapshots), playtech.ee-plugin-releases (file://\\dserver\develop\javatiim\maven-repository\rel, default, snapshots), playtech.ee-plugin-snapshots (file://\\dserver\develop\javatiim\maven-repository\dev, default, snapshots), playtech.mirror (https://nexus.playtech.corp/nexus/content/groups/public, default, releases+snapshots)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-clean-plugin:2.6.1:clean (default-clean)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <directory default-value="${project.build.directory}"/>
+  <excludeDefaultDirectories default-value="false">${clean.excludeDefaultDirectories}</excludeDefaultDirectories>
+  <failOnError default-value="true">${maven.clean.failOnError}</failOnError>
+  <followSymLinks default-value="false">${clean.followSymLinks}</followSymLinks>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <reportDirectory default-value="${project.build.outputDirectory}"/>
+  <retryOnError default-value="true">${maven.clean.retryOnError}</retryOnError>
+  <skip default-value="false">${clean.skip}</skip>
+  <testOutputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <verbose>${clean.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.codehaus.mojo:build-helper-maven-plugin:1.10:parse-version (parse-version)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <project default-value="${project}"/>
+  <propertyPrefix default-value="parsedVersion"/>
+  <versionString default-value="${project.version}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.codehaus.mojo:build-helper-maven-plugin:1.10:add-source (add-source)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <project default-value="${project}"/>
+  <sources>
+    <source>C:\Casino\dev\apache\jsonschema2pojo-plugin-jdk9\target/generated-sources</source>
+  </sources>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-install-plugin:2.5.2:install (default-install)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <artifact default-value="${project.artifact}"/>
+  <attachedArtifacts default-value="${project.attachedArtifacts}"/>
+  <createChecksum default-value="false">${createChecksum}</createChecksum>
+  <installAtEnd default-value="false">${installAtEnd}</installAtEnd>
+  <localRepository>${localRepository}</localRepository>
+  <packaging default-value="${project.packaging}"/>
+  <pomFile default-value="${project.file}"/>
+  <project default-value="${project}"/>
+  <reactorProjects default-value="${reactorProjects}"/>
+  <skip default-value="false">${maven.install.skip}</skip>
+  <updateReleaseInfo default-value="false">${updateReleaseInfo}</updateReleaseInfo>
+</configuration>
+[DEBUG] =======================================================================
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ jsonschema2pojo-plugin-jdk9 ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=2, ConflictMarker.markTime=0, ConflictMarker.nodeCount=4, ConflictIdSorter.graphTime=1, ConflictIdSorter.topsortTime=1, ConflictIdSorter.conflictIdCount=4, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=5, ConflictResolver.conflictItemCount=4, DefaultDependencyCollector.collectTime=69, DefaultDependencyCollector.transformTime=14}
+[DEBUG] org.apache.maven.plugins:maven-clean-plugin:jar:2.6.1:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.2.1:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-utils:jar:0.7:compile
+[DEBUG]       com.google.code.findbugs:jsr305:jar:2.0.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:1.1:runtime
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.6.1
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.6.1
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.6.1
+[DEBUG]   Included: org.apache.maven.plugins:maven-clean-plugin:jar:2.6.1
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:0.7
+[DEBUG]   Included: com.google.code.findbugs:jsr305:jar:2.0.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:1.1
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-clean-plugin:2.6.1:clean from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-clean-plugin:2.6.1, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@649d209a]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-clean-plugin:2.6.1:clean' with basic configurator -->
+[DEBUG]   (f) directory = C:\Casino\dev\apache\jsonschema2pojo-plugin-jdk9\target
+[DEBUG]   (f) excludeDefaultDirectories = false
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) followSymLinks = false
+[DEBUG]   (f) outputDirectory = C:\Casino\dev\apache\jsonschema2pojo-plugin-jdk9\target\classes
+[DEBUG]   (f) reportDirectory = C:\Casino\dev\apache\jsonschema2pojo-plugin-jdk9\target\classes
+[DEBUG]   (f) retryOnError = true
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) testOutputDirectory = C:\Casino\dev\apache\jsonschema2pojo-plugin-jdk9\target\test-classes
+[DEBUG] -- end configuration --
+[DEBUG] Skipping non-existing directory C:\Casino\dev\apache\jsonschema2pojo-plugin-jdk9\target
+[DEBUG] Skipping non-existing directory C:\Casino\dev\apache\jsonschema2pojo-plugin-jdk9\target\classes
+[DEBUG] Skipping non-existing directory C:\Casino\dev\apache\jsonschema2pojo-plugin-jdk9\target\test-classes
+[DEBUG] Skipping non-existing directory C:\Casino\dev\apache\jsonschema2pojo-plugin-jdk9\target\classes
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.10:parse-version (parse-version) @ jsonschema2pojo-plugin-jdk9 ---
+[DEBUG] Using mirror playtech.mirror (https://nexus.playtech.corp/nexus/content/groups/public) for snapshots (http://snapshots.maven.codehaus.org/maven2).
+[DEBUG] Using mirror playtech.mirror (https://nexus.playtech.corp/nexus/content/groups/public) for central (http://repo1.maven.org/maven2).
+[DEBUG] Using mirror playtech.mirror (https://nexus.playtech.corp/nexus/content/groups/public) for codehaus.snapshots (http://snapshots.repository.codehaus.org).
+[DEBUG] Using mirror playtech.mirror (https://nexus.playtech.corp/nexus/content/groups/public) for apache.snapshots (http://people.apache.org/repo/m2-snapshot-repository).
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=1, ConflictMarker.markTime=0, ConflictMarker.nodeCount=79, ConflictIdSorter.graphTime=0, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=34, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=5, ConflictResolver.conflictItemCount=74, DefaultDependencyCollector.collectTime=391, DefaultDependencyCollector.transformTime=6}
+[DEBUG] org.codehaus.mojo:build-helper-maven-plugin:jar:1.10:
+[DEBUG]    org.apache.maven:maven-model:jar:2.2.1:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.2.1:compile
+[DEBUG]          backport-util-concurrent:backport-util-concurrent:jar:3.1:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.2.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.11:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          junit:junit:jar:4.12:test
+[DEBUG]             org.hamcrest:hamcrest-core:jar:1.3:test
+[DEBUG]    org.apache.maven:maven-core:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.2.1:compile
+[DEBUG]       org.slf4j:slf4j-jdk14:jar:1.5.6:runtime
+[DEBUG]          org.slf4j:slf4j-api:jar:1.5.6:runtime
+[DEBUG]       org.slf4j:jcl-over-slf4j:jar:1.5.6:runtime
+[DEBUG]       org.apache.maven.reporting:maven-reporting-api:jar:2.2.1:compile
+[DEBUG]          org.apache.maven.doxia:doxia-sink-api:jar:1.1:compile
+[DEBUG]          org.apache.maven.doxia:doxia-logging-api:jar:1.1:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.2.1:compile
+[DEBUG]       commons-cli:commons-cli:jar:1.2:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.2.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile
+[DEBUG]       org.apache.maven:maven-monitor:jar:2.2.1:compile
+[DEBUG]       classworlds:classworlds:jar:1.1:compile
+[DEBUG]       org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]          org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.2.1:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.2.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0.22:compile
+[DEBUG]    org.beanshell:bsh:jar:2.0b4:compile
+[DEBUG] Created new class realm plugin>org.codehaus.mojo:build-helper-maven-plugin:1.10
+[DEBUG] Importing foreign packages into class realm plugin>org.codehaus.mojo:build-helper-maven-plugin:1.10
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.codehaus.mojo:build-helper-maven-plugin:1.10
+[DEBUG]   Included: org.codehaus.mojo:build-helper-maven-plugin:jar:1.10
+[DEBUG]   Included: backport-util-concurrent:backport-util-concurrent:jar:3.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.11
+[DEBUG]   Included: org.slf4j:slf4j-jdk14:jar:1.5.6
+[DEBUG]   Included: org.slf4j:jcl-over-slf4j:jar:1.5.6
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.2.1
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.1
+[DEBUG]   Included: org.apache.maven.doxia:doxia-logging-api:jar:1.1
+[DEBUG]   Included: commons-cli:commons-cli:jar:1.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.22
+[DEBUG]   Included: org.beanshell:bsh:jar:2.0b4
+[DEBUG] Configuring mojo org.codehaus.mojo:build-helper-maven-plugin:1.10:parse-version from plugin realm ClassRealm[plugin>org.codehaus.mojo:build-helper-maven-plugin:1.10, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@649d209a]
+[DEBUG] Configuring mojo 'org.codehaus.mojo:build-helper-maven-plugin:1.10:parse-version' with basic configurator -->
+[DEBUG]   (f) project = MavenProject: org.openexchange:jsonschema2pojo-plugin-jdk9:1.0.0-SNAPSHOT @ C:\Casino\dev\apache\jsonschema2pojo-plugin-jdk9\pom.xml
+[DEBUG]   (s) propertyPrefix = parsedVersion
+[DEBUG]   (f) versionString = 1.0.0-SNAPSHOT
+[DEBUG] -- end configuration --
+[DEBUG] define property parsedVersion.majorVersion = "1"
+[DEBUG] define property parsedVersion.minorVersion = "0"
+[DEBUG] define property parsedVersion.incrementalVersion = "0"
+[DEBUG] define property parsedVersion.nextMajorVersion = "2"
+[DEBUG] define property parsedVersion.nextMinorVersion = "1"
+[DEBUG] define property parsedVersion.nextIncrementalVersion = "1"
+[DEBUG] define property parsedVersion.qualifier = "SNAPSHOT"
+[DEBUG] define property parsedVersion.buildNumber = "0"
+[DEBUG] define property parsedVersion.osgiVersion = "1.0.0.SNAPSHOT"
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.10:add-source (add-source) @ jsonschema2pojo-plugin-jdk9 ---
+[DEBUG] Configuring mojo org.codehaus.mojo:build-helper-maven-plugin:1.10:add-source from plugin realm ClassRealm[plugin>org.codehaus.mojo:build-helper-maven-plugin:1.10, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@649d209a]
+[DEBUG] Configuring mojo 'org.codehaus.mojo:build-helper-maven-plugin:1.10:add-source' with basic configurator -->
+[DEBUG]   (f) project = MavenProject: org.openexchange:jsonschema2pojo-plugin-jdk9:1.0.0-SNAPSHOT @ C:\Casino\dev\apache\jsonschema2pojo-plugin-jdk9\pom.xml
+[DEBUG]   (f) sources = [C:\Casino\dev\apache\jsonschema2pojo-plugin-jdk9\target\generated-sources]
+[DEBUG] -- end configuration --
+[INFO] Source directory: C:\Casino\dev\apache\jsonschema2pojo-plugin-jdk9\target\generated-sources added.
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ jsonschema2pojo-plugin-jdk9 ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=1, ConflictMarker.markTime=0, ConflictMarker.nodeCount=40, ConflictIdSorter.graphTime=0, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=19, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=2, ConflictResolver.conflictItemCount=40, DefaultDependencyCollector.collectTime=80, DefaultDependencyCollector.transformTime=3}
+[DEBUG] org.apache.maven.plugins:maven-install-plugin:jar:2.5.2:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.2.1:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.2.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.11:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          junit:junit:jar:3.8.1:compile
+[DEBUG]          classworlds:classworlds:jar:1.1-alpha-2:compile
+[DEBUG]    org.apache.maven:maven-model:jar:2.2.1:compile
+[DEBUG]    org.apache.maven:maven-artifact-manager:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.2.1:compile
+[DEBUG]       backport-util-concurrent:backport-util-concurrent:jar:3.1:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.2.1:compile
+[DEBUG]    commons-codec:commons-codec:jar:1.6:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-utils:jar:0.4:compile
+[DEBUG]       com.google.code.findbugs:jsr305:jar:2.0.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0.15:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-install-plugin:2.5.2
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-install-plugin:2.5.2
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-install-plugin:2.5.2
+[DEBUG]   Included: org.apache.maven.plugins:maven-install-plugin:jar:2.5.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.11
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: backport-util-concurrent:backport-util-concurrent:jar:3.1
+[DEBUG]   Included: commons-codec:commons-codec:jar:1.6
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:0.4
+[DEBUG]   Included: com.google.code.findbugs:jsr305:jar:2.0.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.15
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-install-plugin:2.5.2:install from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-install-plugin:2.5.2, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@649d209a]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-install-plugin:2.5.2:install' with basic configurator -->
+[DEBUG]   (f) artifact = org.openexchange:jsonschema2pojo-plugin-jdk9:pom:1.0.0-SNAPSHOT
+[DEBUG]   (f) attachedArtifacts = []
+[DEBUG]   (f) createChecksum = false
+[DEBUG]   (f) installAtEnd = false
+[DEBUG]   (f) localRepository =       id: local
+      url: file:///C:/Users/andriyka/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[DEBUG]   (f) packaging = pom
+[DEBUG]   (f) pomFile = C:\Casino\dev\apache\jsonschema2pojo-plugin-jdk9\pom.xml
+[DEBUG]   (f) project = MavenProject: org.openexchange:jsonschema2pojo-plugin-jdk9:1.0.0-SNAPSHOT @ C:\Casino\dev\apache\jsonschema2pojo-plugin-jdk9\pom.xml
+[DEBUG]   (f) reactorProjects = [MavenProject: org.openexchange:jsonschema2pojo-plugin-jdk9:1.0.0-SNAPSHOT @ C:\Casino\dev\apache\jsonschema2pojo-plugin-jdk9\pom.xml, MavenProject: org.openexchange:pojo:1.0.0-SNAPSHOT @ C:\Casino\dev\apache\jsonschema2pojo-plugin-jdk9\pojo\pom.xml]
+[DEBUG]   (s) skip = false
+[DEBUG]   (f) updateReleaseInfo = false
+[DEBUG] -- end configuration --
+[INFO] Installing C:\Casino\dev\apache\jsonschema2pojo-plugin-jdk9\pom.xml to C:\Users\andriyka\.m2\repository\org\openexchange\jsonschema2pojo-plugin-jdk9\1.0.0-SNAPSHOT\jsonschema2pojo-plugin-jdk9-1.0.0-SNAPSHOT.pom
+[DEBUG] Writing tracking file C:\Users\andriyka\.m2\repository\org\openexchange\jsonschema2pojo-plugin-jdk9\1.0.0-SNAPSHOT\_remote.repositories
+[DEBUG] Installing org.openexchange:jsonschema2pojo-plugin-jdk9:1.0.0-SNAPSHOT/maven-metadata.xml to C:\Users\andriyka\.m2\repository\org\openexchange\jsonschema2pojo-plugin-jdk9\1.0.0-SNAPSHOT\maven-metadata-local.xml
+[DEBUG] Installing org.openexchange:jsonschema2pojo-plugin-jdk9/maven-metadata.xml to C:\Users\andriyka\.m2\repository\org\openexchange\jsonschema2pojo-plugin-jdk9\maven-metadata-local.xml
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building openexchange ::: pojo 1.0.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Using mirror playtech.mirror (https://nexus.playtech.corp/nexus/content/groups/public) for spring-ext (http://repo.spring.io/ext-release-local/).
+[DEBUG] Using mirror playtech.mirror (https://nexus.playtech.corp/nexus/content/groups/public) for spring-milestones (http://repo.spring.io/milestone).
+[DEBUG] Using mirror playtech.mirror (https://nexus.playtech.corp/nexus/content/groups/public) for spring-snapshots (http://repo.spring.io/snapshot).
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Using mirror playtech.mirror (https://nexus.playtech.corp/nexus/content/groups/public) for maven-central (http://repo1.maven.org/maven2).
+[DEBUG] Using mirror playtech.mirror (https://nexus.playtech.corp/nexus/content/groups/public) for gradle-workaround (http://repo.spring.io/plugins-release).
+[DEBUG] Using mirror playtech.mirror (https://nexus.playtech.corp/nexus/content/groups/public) for sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots).
+[DEBUG] Using mirror playtech.mirror (https://nexus.playtech.corp/nexus/content/groups/public) for apache.snapshots (https://repository.apache.org/snapshots).
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       org.openexchange:pojo:1.0.0-SNAPSHOT
+[DEBUG] Dependencies (collect): [compile+runtime]
+[DEBUG] Dependencies (resolve): [compile, compile+runtime, runtime, test]
+[DEBUG] Repositories (dependencies): [pt-releases (https://nexus.playtech.corp/nexus/content/groups/pt-releases, default, releases), pt-snapshots (https://nexus.playtech.corp/nexus/content/groups/pt-snapshots, default, snapshots), playtech.mirror (https://nexus.playtech.corp/nexus/content/groups/public, default, releases)]
+[DEBUG] Repositories (plugins)     : [pt-releases (https://nexus.playtech.corp/nexus/content/groups/pt-releases, default, releases), pt-snapshots (https://nexus.playtech.corp/nexus/content/groups/pt-snapshots, default, snapshots), playtech.ee-plugin-releases (file://\\dserver\develop\javatiim\maven-repository\rel, default, snapshots), playtech.ee-plugin-snapshots (file://\\dserver\develop\javatiim\maven-repository\dev, default, snapshots), playtech.mirror (https://nexus.playtech.corp/nexus/content/groups/public, default, releases+snapshots)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-clean-plugin:2.6.1:clean (default-clean)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <directory default-value="${project.build.directory}"/>
+  <excludeDefaultDirectories default-value="false">${clean.excludeDefaultDirectories}</excludeDefaultDirectories>
+  <failOnError default-value="true">${maven.clean.failOnError}</failOnError>
+  <followSymLinks default-value="false">${clean.followSymLinks}</followSymLinks>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <reportDirectory default-value="${project.build.outputDirectory}"/>
+  <retryOnError default-value="true">${maven.clean.retryOnError}</retryOnError>
+  <skip default-value="false">${clean.skip}</skip>
+  <testOutputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <verbose>${clean.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.codehaus.mojo:build-helper-maven-plugin:1.10:parse-version (parse-version)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <project default-value="${project}"/>
+  <propertyPrefix default-value="parsedVersion"/>
+  <versionString default-value="${project.version}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.codehaus.mojo:build-helper-maven-plugin:1.10:add-source (add-source)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <project default-value="${project}"/>
+  <sources>
+    <source>C:\Casino\dev\apache\jsonschema2pojo-plugin-jdk9\pojo\target/generated-sources</source>
+  </sources>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.jsonschema2pojo:jsonschema2pojo-maven-plugin:0.4.24:generate (default)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <addCompileSourceRoot default-value="true">${jsonschema2pojo.addCompileSourceRoot}</addCompileSourceRoot>
+  <annotationStyle default-value="jackson2">${jsonschema2pojo.annotationStyle}</annotationStyle>
+  <classNamePrefix>${jsonschema2pojo.classNamePrefix}</classNamePrefix>
+  <classNameSuffix>${jsonschema2pojo.classNameSuffix}</classNameSuffix>
+  <constructorsRequiredPropertiesOnly default-value="false">${jsonschema2pojo.constructorsRequiredPropertiesOnly}</constructorsRequiredPropertiesOnly>
+  <customAnnotator default-value="org.jsonschema2pojo.NoopAnnotator">${jsonschema2pojo.customAnnotator}</customAnnotator>
+  <customRuleFactory default-value="org.jsonschema2pojo.rules.RuleFactory">${jsonschema2pojo.customRuleFactory}</customRuleFactory>
+  <dateTimeType>${jsonschema2pojo.dateTimeType}</dateTimeType>
+  <dateType>${jsonschema2pojo.dateType}</dateType>
+  <fileExtensions default-value="">${jsonschema2pojo.fileExtensions}</fileExtensions>
+  <generateBuilders default-value="false">${jsonschema2pojo.generateBuilders}</generateBuilders>
+  <includeAccessors default-value="true">${jsonschema2pojo.includeAccessors}</includeAccessors>
+  <includeAdditionalProperties default-value="true">${jsonschema2pojo.includeAdditionalProperties}</includeAdditionalProperties>
+  <includeConstructors default-value="false">${jsonschema2pojo.includeConstructors}</includeConstructors>
+  <includeDynamicAccessors default-value="false">${jsonschema2pojo.includeDynamicAccessors}</includeDynamicAccessors>
+  <includeHashcodeAndEquals default-value="true">${jsonschema2pojo.includeHashcodeAndEquals}</includeHashcodeAndEquals>
+  <includeJsr303Annotations default-value="false">true</includeJsr303Annotations>
+  <includeToString default-value="true">${jsonschema2pojo.includeToString}</includeToString>
+  <initializeCollections default-value="true">${jsonschema2pojo.initializeCollections}</initializeCollections>
+  <outputDirectory default-value="${project.build.directory}/java-gen">C:\Casino\dev\apache\jsonschema2pojo-plugin-jdk9\pojo/target/generated-sources</outputDirectory>
+  <outputEncoding default-value="UTF-8">${jsonschema2pojo.outputEncoding}</outputEncoding>
+  <parcelable default-value="false">${jsonschema2pojo.parcelable}</parcelable>
+  <project>${project}</project>
+  <propertyWordDelimiters default-value="- _">${jsonschema2pojo.propertyWordDelimiters}</propertyWordDelimiters>
+  <removeOldOutput default-value="false">${jsonschema2pojo.removeOldOutput}</removeOldOutput>
+  <serializable>${jsonschema2pojo.serializable}</serializable>
+  <skip default-value="false">${jsonschema2pojo.skip}</skip>
+  <sourceDirectory>C:\Casino\dev\apache\jsonschema2pojo-plugin-jdk9\pojo/src/main/resources</sourceDirectory>
+  <sourcePaths>${jsonschema2pojo.sourcePaths}</sourcePaths>
+  <sourceType default-value="jsonschema">${jsonschema2pojo.sourceType}</sourceType>
+  <targetPackage>org.openexchange.pojos</targetPackage>
+  <targetVersion default-value="1.6">${maven.compiler.target}</targetVersion>
+  <timeType>${jsonschema2pojo.timeType}</timeType>
+  <useBigDecimals default-value="false">${jsonschema2pojo.useBigDecimals}</useBigDecimals>
+  <useCommonsLang3 default-value="false">true</useCommonsLang3>
+  <useDoubleNumbers default-value="true">${jsonschema2pojo.useDoubleNumbers}</useDoubleNumbers>
+  <useJodaDates default-value="false">${jsonschema2pojo.useJodaDates}</useJodaDates>
+  <useJodaLocalDates default-value="false">${jsonschema2pojo.useJodaLocalDates}</useJodaLocalDates>
+  <useJodaLocalTimes default-value="false">${jsonschema2pojo.useJodaLocalTimes}</useJodaLocalTimes>
+  <useLongIntegers default-value="false">${jsonschema2pojo.useLongIntegers}</useLongIntegers>
+  <usePrimitives default-value="false">${jsonschema2pojo.usePrimitives}</usePrimitives>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:2.6:resources (default-resources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <buildFilters default-value="${project.build.filters}"/>
+  <delimiters>
+    <delimiter>@</delimiter>
+    <delimiter>${*}</delimiter>
+  </delimiters>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <escapeString>${maven.resources.escapeString}</escapeString>
+  <escapeWindowsPaths default-value="true">${maven.resources.escapeWindowsPaths}</escapeWindowsPaths>
+  <includeEmptyDirs default-value="false">${maven.resources.includeEmptyDirs}</includeEmptyDirs>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <overwrite default-value="false">${maven.resources.overwrite}</overwrite>
+  <project default-value="${project}"/>
+  <resources default-value="${project.resources}"/>
+  <session default-value="${session}"/>
+  <supportMultiLineFiltering default-value="false">${maven.resources.supportMultiLineFiltering}</supportMultiLineFiltering>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true">true</useDefaultDelimiters>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <classpathElements default-value="${project.compileClasspathElements}"/>
+  <compileSourceRoots default-value="${project.compileSourceRoots}"/>
+  <compilerArgs>
+    <arg>-addmods</arg>
+    <arg>java.xml.bind,java.annotations.common</arg>
+  </compilerArgs>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <fork default-value="false">true</fork>
+  <generatedSourcesDirectory default-value="${project.build.directory}/generated-sources/annotations"/>
+  <maxmem>4096m</maxmem>
+  <meminitial>1024m</meminitial>
+  <mojoExecution>${mojoExecution}</mojoExecution>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <projectArtifact default-value="${project.artifact}"/>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <skipMain>${maven.main.skip}</skipMain>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.5">1.9</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.5">1.9</target>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+  <mavenSession default-value="${session}"/>
+  <session default-value="${session}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:2.6:testResources (default-testResources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <buildFilters default-value="${project.build.filters}"/>
+  <delimiters>
+    <delimiter>@</delimiter>
+    <delimiter>${*}</delimiter>
+  </delimiters>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <escapeString>${maven.resources.escapeString}</escapeString>
+  <escapeWindowsPaths default-value="true">${maven.resources.escapeWindowsPaths}</escapeWindowsPaths>
+  <includeEmptyDirs default-value="false">${maven.resources.includeEmptyDirs}</includeEmptyDirs>
+  <outputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <overwrite default-value="false">${maven.resources.overwrite}</overwrite>
+  <project default-value="${project}"/>
+  <resources default-value="${project.testResources}"/>
+  <session default-value="${session}"/>
+  <skip>${maven.test.skip}</skip>
+  <supportMultiLineFiltering default-value="false">${maven.resources.supportMultiLineFiltering}</supportMultiLineFiltering>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true">true</useDefaultDelimiters>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile (default-testCompile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <classpathElements default-value="${project.testClasspathElements}"/>
+  <compileSourceRoots default-value="${project.testCompileSourceRoots}"/>
+  <compilerArgs>
+    <arg>-addmods</arg>
+    <arg>java.xml.bind,java.annotations.common</arg>
+  </compilerArgs>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <fork default-value="false">true</fork>
+  <generatedTestSourcesDirectory default-value="${project.build.directory}/generated-test-sources/test-annotations"/>
+  <maxmem>4096m</maxmem>
+  <meminitial>1024m</meminitial>
+  <mojoExecution>${mojoExecution}</mojoExecution>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <skip>${maven.test.skip}</skip>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.5">1.9</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.5">1.9</target>
+  <testSource>${maven.compiler.testSource}</testSource>
+  <testTarget>${maven.compiler.testTarget}</testTarget>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+  <mavenSession default-value="${session}"/>
+  <session default-value="${session}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-surefire-plugin:2.18.1:test (default-test)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <additionalClasspathElements>${maven.test.additionalClasspath}</additionalClasspathElements>
+  <argLine>-Djdk.launcher.addmods=java.xml.bind,java.annotations.common</argLine>
+  <basedir default-value="${basedir}"/>
+  <childDelegation default-value="false">${childDelegation}</childDelegation>
+  <classesDirectory default-value="${project.build.outputDirectory}"/>
+  <classpathDependencyExcludes>${maven.test.dependency.excludes}</classpathDependencyExcludes>
+  <debugForkedProcess>${maven.surefire.debug}</debugForkedProcess>
+  <dependenciesToScan>${dependenciesToScan}</dependenciesToScan>
+  <disableXmlReport default-value="false">${disableXmlReport}</disableXmlReport>
+  <enableAssertions default-value="true">${enableAssertions}</enableAssertions>
+  <excludedGroups>${excludedGroups}</excludedGroups>
+  <excludes>
+    <exclude>**/Abstract*.java</exclude>
+  </excludes>
+  <failIfNoSpecifiedTests>${surefire.failIfNoSpecifiedTests}</failIfNoSpecifiedTests>
+  <failIfNoTests>${failIfNoTests}</failIfNoTests>
+  <forkCount default-value="1">${forkCount}</forkCount>
+  <forkMode default-value="once">${forkMode}</forkMode>
+  <forkedProcessTimeoutInSeconds>${surefire.timeout}</forkedProcessTimeoutInSeconds>
+  <groups>${groups}</groups>
+  <includes>
+    <include>**/*Tests.java</include>
+    <include>**/*Test.java</include>
+  </includes>
+  <junitArtifactName default-value="junit:junit">${junitArtifactName}</junitArtifactName>
+  <jvm>${jvm}</jvm>
+  <localRepository default-value="${localRepository}"/>
+  <objectFactory>${objectFactory}</objectFactory>
+  <parallel>${parallel}</parallel>
+  <parallelMavenExecution default-value="${session.parallel}"/>
+  <parallelOptimized default-value="true">${parallelOptimized}</parallelOptimized>
+  <parallelTestsTimeoutForcedInSeconds>${surefire.parallel.forcedTimeout}</parallelTestsTimeoutForcedInSeconds>
+  <parallelTestsTimeoutInSeconds>${surefire.parallel.timeout}</parallelTestsTimeoutInSeconds>
+  <perCoreThreadCount default-value="true">${perCoreThreadCount}</perCoreThreadCount>
+  <pluginArtifactMap>${plugin.artifactMap}</pluginArtifactMap>
+  <pluginDescriptor default-value="${plugin}"/>
+  <printSummary default-value="true">${surefire.printSummary}</printSummary>
+  <projectArtifactMap>${project.artifactMap}</projectArtifactMap>
+  <redirectTestOutputToFile default-value="false">${maven.test.redirectTestOutputToFile}</redirectTestOutputToFile>
+  <remoteRepositories default-value="${project.pluginArtifactRepositories}"/>
+  <reportFormat default-value="brief">${surefire.reportFormat}</reportFormat>
+  <reportNameSuffix default-value="">${surefire.reportNameSuffix}</reportNameSuffix>
+  <reportsDirectory default-value="${project.build.directory}/surefire-reports"/>
+  <rerunFailingTestsCount default-value="0">${surefire.rerunFailingTestsCount}</rerunFailingTestsCount>
+  <reuseForks default-value="true">${reuseForks}</reuseForks>
+  <runOrder default-value="filesystem">${surefire.runOrder}</runOrder>
+  <skip default-value="false">${maven.test.skip}</skip>
+  <skipExec>${maven.test.skip.exec}</skipExec>
+  <skipTests default-value="false">${skipTests}</skipTests>
+  <suiteXmlFiles>${surefire.suiteXmlFiles}</suiteXmlFiles>
+  <test>${test}</test>
+  <testClassesDirectory default-value="${project.build.testOutputDirectory}"/>
+  <testFailureIgnore default-value="false">${maven.test.failure.ignore}</testFailureIgnore>
+  <testNGArtifactName default-value="org.testng:testng">${testNGArtifactName}</testNGArtifactName>
+  <testSourceDirectory default-value="${project.build.testSourceDirectory}"/>
+  <threadCount>${threadCount}</threadCount>
+  <threadCountClasses default-value="0">${threadCountClasses}</threadCountClasses>
+  <threadCountMethods default-value="0">${threadCountMethods}</threadCountMethods>
+  <threadCountSuites default-value="0">${threadCountSuites}</threadCountSuites>
+  <trimStackTrace default-value="true">${trimStackTrace}</trimStackTrace>
+  <useFile default-value="true">${surefire.useFile}</useFile>
+  <useManifestOnlyJar default-value="true">${surefire.useManifestOnlyJar}</useManifestOnlyJar>
+  <useSystemClassLoader default-value="true">${surefire.useSystemClassLoader}</useSystemClassLoader>
+  <useUnlimitedThreads default-value="false">${useUnlimitedThreads}</useUnlimitedThreads>
+  <workingDirectory>${basedir}</workingDirectory>
+  <project default-value="${project}"/>
+  <session default-value="${session}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-jar-plugin:3.0.2:jar (default-jar)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <archive>
+    <manifest>
+      <mainClass>${start-class}</mainClass>
+      <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
+    </manifest>
+  </archive>
+  <classesDirectory default-value="${project.build.outputDirectory}"/>
+  <finalName default-value="${project.build.finalName}"/>
+  <forceCreation default-value="false">${maven.jar.forceCreation}</forceCreation>
+  <outputDirectory default-value="${project.build.directory}"/>
+  <project default-value="${project}"/>
+  <session default-value="${session}"/>
+  <skipIfEmpty default-value="false"/>
+  <useDefaultManifestFile default-value="false">${jar.useDefaultManifestFile}</useDefaultManifestFile>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.springframework.boot:spring-boot-maven-plugin:1.4.0.RELEASE:repackage (default)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <attach default-value="true"/>
+  <excludeArtifactIds default-value="">${excludeArtifactIds}</excludeArtifactIds>
+  <excludeDevtools default-value="false"/>
+  <excludeGroupIds default-value="">${excludeGroupIds}</excludeGroupIds>
+  <executable default-value="false"/>
+  <finalName default-value="${project.build.finalName}">pojo</finalName>
+  <includeSystemScope default-value="false"/>
+  <mainClass>${start-class}</mainClass>
+  <outputDirectory default-value="${project.build.directory}"/>
+  <project default-value="${project}"/>
+  <skip default-value="false">${skip}</skip>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-install-plugin:2.5.2:install (default-install)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <artifact default-value="${project.artifact}"/>
+  <attachedArtifacts default-value="${project.attachedArtifacts}"/>
+  <createChecksum default-value="false">${createChecksum}</createChecksum>
+  <installAtEnd default-value="false">${installAtEnd}</installAtEnd>
+  <localRepository>${localRepository}</localRepository>
+  <packaging default-value="${project.packaging}"/>
+  <pomFile default-value="${project.file}"/>
+  <project default-value="${project}"/>
+  <reactorProjects default-value="${reactorProjects}"/>
+  <skip default-value="false">${maven.install.skip}</skip>
+  <updateReleaseInfo default-value="false">${updateReleaseInfo}</updateReleaseInfo>
+</configuration>
+[DEBUG] =======================================================================
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=0, ConflictMarker.markTime=0, ConflictMarker.nodeCount=63, ConflictIdSorter.graphTime=0, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=33, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=3, ConflictResolver.conflictItemCount=54, DefaultDependencyCollector.collectTime=341, DefaultDependencyCollector.transformTime=4}
+[DEBUG] org.openexchange:pojo:jar:1.0.0-SNAPSHOT
+[DEBUG]    org.springframework.boot:spring-boot-starter-web:jar:1.4.0.RELEASE:compile
+[DEBUG]       org.springframework.boot:spring-boot-starter:jar:1.4.0.RELEASE:compile
+[DEBUG]          org.springframework.boot:spring-boot:jar:1.4.0.RELEASE:compile
+[DEBUG]          org.springframework.boot:spring-boot-autoconfigure:jar:1.4.0.RELEASE:compile
+[DEBUG]          org.springframework.boot:spring-boot-starter-logging:jar:1.4.0.RELEASE:compile
+[DEBUG]             ch.qos.logback:logback-classic:jar:1.1.7:compile
+[DEBUG]                ch.qos.logback:logback-core:jar:1.1.7:compile
+[DEBUG]                org.slf4j:slf4j-api:jar:1.7.21:compile (version managed from 1.7.20 by org.springframework.boot:spring-boot-dependencies:1.4.0.RELEASE)
+[DEBUG]             org.slf4j:jcl-over-slf4j:jar:1.7.21:compile
+[DEBUG]             org.slf4j:jul-to-slf4j:jar:1.7.21:compile
+[DEBUG]             org.slf4j:log4j-over-slf4j:jar:1.7.21:compile
+[DEBUG]          org.springframework:spring-core:jar:4.3.2.RELEASE:compile
+[DEBUG]          org.yaml:snakeyaml:jar:1.17:runtime
+[DEBUG]       org.springframework.boot:spring-boot-starter-tomcat:jar:1.4.0.RELEASE:compile
+[DEBUG]          org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.4:compile
+[DEBUG]          org.apache.tomcat.embed:tomcat-embed-el:jar:8.5.4:compile
+[DEBUG]          org.apache.tomcat.embed:tomcat-embed-websocket:jar:8.5.4:compile
+[DEBUG]       org.hibernate:hibernate-validator:jar:5.2.4.Final:compile
+[DEBUG]          javax.validation:validation-api:jar:1.1.0.Final:compile
+[DEBUG]          org.jboss.logging:jboss-logging:jar:3.3.0.Final:compile (version managed from 3.2.1.Final by org.springframework.boot:spring-boot-dependencies:1.4.0.RELEASE)
+[DEBUG]          com.fasterxml:classmate:jar:1.3.1:compile (version managed from 1.1.0 by org.springframework.boot:spring-boot-dependencies:1.4.0.RELEASE)
+[DEBUG]       com.fasterxml.jackson.core:jackson-databind:jar:2.8.1:compile
+[DEBUG]          com.fasterxml.jackson.core:jackson-annotations:jar:2.8.1:compile (version managed from 2.8.0 by org.springframework.boot:spring-boot-dependencies:1.4.0.RELEASE)
+[DEBUG]          com.fasterxml.jackson.core:jackson-core:jar:2.8.1:compile
+[DEBUG]       org.springframework:spring-web:jar:4.3.2.RELEASE:compile
+[DEBUG]          org.springframework:spring-aop:jar:4.3.2.RELEASE:compile
+[DEBUG]          org.springframework:spring-beans:jar:4.3.2.RELEASE:compile
+[DEBUG]          org.springframework:spring-context:jar:4.3.2.RELEASE:compile
+[DEBUG]       org.springframework:spring-webmvc:jar:4.3.2.RELEASE:compile
+[DEBUG]          org.springframework:spring-expression:jar:4.3.2.RELEASE:compile
+[DEBUG]    org.codehaus.jettison:jettison:jar:1.2:compile
+[DEBUG]       stax:stax-api:jar:1.0.1:compile
+[DEBUG]    org.apache.commons:commons-lang3:jar:3.4:compile
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ pojo ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-clean-plugin:2.6.1:clean from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-clean-plugin:2.6.1, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@649d209a]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-clean-plugin:2.6.1:clean' with basic configurator -->
+[DEBUG]   (f) directory = C:\Casino\dev\apache\jsonschema2pojo-plugin-jdk9\pojo\target
+[DEBUG]   (f) excludeDefaultDirectories = false
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) followSymLinks = false
+[DEBUG]   (f) outputDirectory = C:\Casino\dev\apache\jsonschema2pojo-plugin-jdk9\pojo\target\classes
+[DEBUG]   (f) reportDirectory = C:\Casino\dev\apache\jsonschema2pojo-plugin-jdk9\pojo\target\classes
+[DEBUG]   (f) retryOnError = true
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) testOutputDirectory = C:\Casino\dev\apache\jsonschema2pojo-plugin-jdk9\pojo\target\test-classes
+[DEBUG] -- end configuration --
+[INFO] Deleting C:\Casino\dev\apache\jsonschema2pojo-plugin-jdk9\pojo\target
+[INFO] Deleting file C:\Casino\dev\apache\jsonschema2pojo-plugin-jdk9\pojo\target\pojo.jar
+[INFO] Deleting file C:\Casino\dev\apache\jsonschema2pojo-plugin-jdk9\pojo\target\pojo-1.0.0-SNAPSHOT.jar
+[INFO] Deleting file C:\Casino\dev\apache\jsonschema2pojo-plugin-jdk9\pojo\target\maven-status\maven-compiler-plugin\compile\default-compile\inputFiles.lst
+[INFO] Deleting file C:\Casino\dev\apache\jsonschema2pojo-plugin-jdk9\pojo\target\maven-status\maven-compiler-plugin\compile\default-compile\createdFiles.lst
+[INFO] Deleting directory C:\Casino\dev\apache\jsonschema2pojo-plugin-jdk9\pojo\target\maven-status\maven-compiler-plugin\compile\default-compile
+[INFO] Deleting directory C:\Casino\dev\apache\jsonschema2pojo-plugin-jdk9\pojo\target\maven-status\maven-compiler-plugin\compile
+[INFO] Deleting directory C:\Casino\dev\apache\jsonschema2pojo-plugin-jdk9\pojo\target\maven-status\maven-compiler-plugin
+[INFO] Deleting directory C:\Casino\dev\apache\jsonschema2pojo-plugin-jdk9\pojo\target\maven-status
+[INFO] Deleting file C:\Casino\dev\apache\jsonschema2pojo-plugin-jdk9\pojo\target\maven-archiver\pom.properties
+[INFO] Deleting directory C:\Casino\dev\apache\jsonschema2pojo-plugin-jdk9\pojo\target\maven-archiver
+[INFO] Deleting file C:\Casino\dev\apache\jsonschema2pojo-plugin-jdk9\pojo\target\generated-sources\org\openexchange\pojos\Pojo.java
+[INFO] Deleting directory C:\Casino\dev\apache\jsonschema2pojo-plugin-jdk9\pojo\target\generated-sources\org\openexchange\pojos
+[INFO] Deleting directory C:\Casino\dev\apache\jsonschema2pojo-plugin-jdk9\pojo\target\generated-sources\org\openexchange
+[INFO] Deleting directory C:\Casino\dev\apache\jsonschema2pojo-plugin-jdk9\pojo\target\generated-sources\org
+[INFO] Deleting directory C:\Casino\dev\apache\jsonschema2pojo-plugin-jdk9\pojo\target\generated-sources\annotations
+[INFO] Deleting directory C:\Casino\dev\apache\jsonschema2pojo-plugin-jdk9\pojo\target\generated-sources
+[INFO] Deleting file C:\Casino\dev\apache\jsonschema2pojo-plugin-jdk9\pojo\target\classes\Pojo.json
+[INFO] Deleting file C:\Casino\dev\apache\jsonschema2pojo-plugin-jdk9\pojo\target\classes\org.codehaus.plexus.compiler.javac.JavacCompiler7721693493228874085arguments
+[INFO] Deleting file C:\Casino\dev\apache\jsonschema2pojo-plugin-jdk9\pojo\target\classes\org\openexchange\pojos\Pojo.class
+[INFO] Deleting directory C:\Casino\dev\apache\jsonschema2pojo-plugin-jdk9\pojo\target\classes\org\openexchange\pojos
+[INFO] Deleting file C:\Casino\dev\apache\jsonschema2pojo-plugin-jdk9\pojo\target\classes\org\openexchange\Application.class
+[INFO] Deleting directory C:\Casino\dev\apache\jsonschema2pojo-plugin-jdk9\pojo\target\classes\org\openexchange
+[INFO] Deleting directory C:\Casino\dev\apache\jsonschema2pojo-plugin-jdk9\pojo\target\classes\org
+[INFO] Deleting file C:\Casino\dev\apache\jsonschema2pojo-plugin-jdk9\pojo\target\classes\javac.bat
+[INFO] Deleting directory C:\Casino\dev\apache\jsonschema2pojo-plugin-jdk9\pojo\target\classes
+[INFO] Deleting directory C:\Casino\dev\apache\jsonschema2pojo-plugin-jdk9\pojo\target
+[DEBUG] Skipping non-existing directory C:\Casino\dev\apache\jsonschema2pojo-plugin-jdk9\pojo\target\classes
+[DEBUG] Skipping non-existing directory C:\Casino\dev\apache\jsonschema2pojo-plugin-jdk9\pojo\target\test-classes
+[DEBUG] Skipping non-existing directory C:\Casino\dev\apache\jsonschema2pojo-plugin-jdk9\pojo\target\classes
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.10:parse-version (parse-version) @ pojo ---
+[DEBUG] Configuring mojo org.codehaus.mojo:build-helper-maven-plugin:1.10:parse-version from plugin realm ClassRealm[plugin>org.codehaus.mojo:build-helper-maven-plugin:1.10, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@649d209a]
+[DEBUG] Configuring mojo 'org.codehaus.mojo:build-helper-maven-plugin:1.10:parse-version' with basic configurator -->
+[DEBUG]   (f) project = MavenProject: org.openexchange:pojo:1.0.0-SNAPSHOT @ C:\Casino\dev\apache\jsonschema2pojo-plugin-jdk9\pojo\pom.xml
+[DEBUG]   (s) propertyPrefix = parsedVersion
+[DEBUG]   (f) versionString = 1.0.0-SNAPSHOT
+[DEBUG] -- end configuration --
+[DEBUG] define property parsedVersion.majorVersion = "1"
+[DEBUG] define property parsedVersion.minorVersion = "0"
+[DEBUG] define property parsedVersion.incrementalVersion = "0"
+[DEBUG] define property parsedVersion.nextMajorVersion = "2"
+[DEBUG] define property parsedVersion.nextMinorVersion = "1"
+[DEBUG] define property parsedVersion.nextIncrementalVersion = "1"
+[DEBUG] define property parsedVersion.qualifier = "SNAPSHOT"
+[DEBUG] define property parsedVersion.buildNumber = "0"
+[DEBUG] define property parsedVersion.osgiVersion = "1.0.0.SNAPSHOT"
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.10:add-source (add-source) @ pojo ---
+[DEBUG] Configuring mojo org.codehaus.mojo:build-helper-maven-plugin:1.10:add-source from plugin realm ClassRealm[plugin>org.codehaus.mojo:build-helper-maven-plugin:1.10, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@649d209a]
+[DEBUG] Configuring mojo 'org.codehaus.mojo:build-helper-maven-plugin:1.10:add-source' with basic configurator -->
+[DEBUG]   (f) project = MavenProject: org.openexchange:pojo:1.0.0-SNAPSHOT @ C:\Casino\dev\apache\jsonschema2pojo-plugin-jdk9\pojo\pom.xml
+[DEBUG]   (f) sources = [C:\Casino\dev\apache\jsonschema2pojo-plugin-jdk9\pojo\target\generated-sources]
+[DEBUG] -- end configuration --
+[INFO] Source directory: C:\Casino\dev\apache\jsonschema2pojo-plugin-jdk9\pojo\target\generated-sources added.
+[INFO] 
+[INFO] --- jsonschema2pojo-maven-plugin:0.4.24:generate (default) @ pojo ---
+[DEBUG] Using mirror playtech.mirror (https://nexus.playtech.corp/nexus/content/groups/public) for jvnet-nexus-snapshots (https://maven.java.net/content/repositories/snapshots).
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=0, ConflictMarker.markTime=0, ConflictMarker.nodeCount=64, ConflictIdSorter.graphTime=1, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=45, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=3, ConflictResolver.conflictItemCount=64, DefaultDependencyCollector.collectTime=280, DefaultDependencyCollector.transformTime=4}
+[DEBUG] org.jsonschema2pojo:jsonschema2pojo-maven-plugin:jar:0.4.24:
+[DEBUG]    org.jsonschema2pojo:jsonschema2pojo-core:jar:0.4.24:compile
+[DEBUG]       com.fasterxml.jackson.core:jackson-databind:jar:2.7.0:compile
+[DEBUG]          com.fasterxml.jackson.core:jackson-annotations:jar:2.7.0:compile
+[DEBUG]          com.fasterxml.jackson.core:jackson-core:jar:2.7.0:compile
+[DEBUG]       com.google.code.javaparser:javaparser:jar:1.0.11:compile
+[DEBUG]       com.google.android:android:jar:4.1.1.4:compile
+[DEBUG]          commons-logging:commons-logging:jar:1.1.1:compile
+[DEBUG]          org.apache.httpcomponents:httpclient:jar:4.0.1:compile
+[DEBUG]             org.apache.httpcomponents:httpcore:jar:4.0.1:compile
+[DEBUG]             commons-codec:commons-codec:jar:1.9:test
+[DEBUG]          org.khronos:opengl-api:jar:gl1.1-android-2.1_r1:compile
+[DEBUG]          xerces:xmlParserAPIs:jar:2.6.2:compile
+[DEBUG]          xpp3:xpp3:jar:1.1.4c:compile
+[DEBUG]          org.json:json:jar:20080701:compile
+[DEBUG]       com.sun.codemodel:codemodel:jar:2.6:compile
+[DEBUG]       com.google.code.gson:gson:jar:2.5:compile
+[DEBUG]       com.squareup.moshi:moshi:jar:1.1.0:compile
+[DEBUG]          com.squareup.okio:okio:jar:1.6.0:compile
+[DEBUG]       commons-lang:commons-lang:jar:2.6:compile
+[DEBUG]       commons-io:commons-io:jar:2.4:compile
+[DEBUG]       javax.validation:validation-api:jar:1.0.0.GA:compile
+[DEBUG]       joda-time:joda-time:jar:2.2:compile
+[DEBUG]       org.codehaus.jackson:jackson-mapper-asl:jar:1.9.11:compile
+[DEBUG]          org.codehaus.jackson:jackson-core-asl:jar:1.9.11:compile
+[DEBUG]       org.apache.commons:commons-lang3:jar:3.2.1:compile
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.2.1:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-model:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.2.1:compile
+[DEBUG]          org.apache.maven:maven-repository-metadata:jar:2.2.1:compile
+[DEBUG]          backport-util-concurrent:backport-util-concurrent:jar:3.1:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.2.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.11:compile
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:1.5.15:compile
+[DEBUG]       org.apache.maven:maven-artifact:jar:2.2.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          junit:junit:jar:4.11:test
+[DEBUG]             org.hamcrest:hamcrest-core:jar:1.3:test
+[DEBUG]          classworlds:classworlds:jar:1.1-alpha-2:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-utils:jar:0.6:compile
+[DEBUG]       com.google.code.findbugs:jsr305:jar:2.0.1:compile
+[DEBUG]    com.google.code.findbugs:annotations:jar:1.3.9:compile
+[DEBUG] Created new class realm plugin>org.jsonschema2pojo:jsonschema2pojo-maven-plugin:0.4.24
+[DEBUG] Importing foreign packages into class realm plugin>org.jsonschema2pojo:jsonschema2pojo-maven-plugin:0.4.24
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.jsonschema2pojo:jsonschema2pojo-maven-plugin:0.4.24
+[DEBUG]   Included: org.jsonschema2pojo:jsonschema2pojo-maven-plugin:jar:0.4.24
+[DEBUG]   Included: org.jsonschema2pojo:jsonschema2pojo-core:jar:0.4.24
+[DEBUG]   Included: com.fasterxml.jackson.core:jackson-databind:jar:2.7.0
+[DEBUG]   Included: com.fasterxml.jackson.core:jackson-annotations:jar:2.7.0
+[DEBUG]   Included: com.fasterxml.jackson.core:jackson-core:jar:2.7.0
+[DEBUG]   Included: com.google.code.javaparser:javaparser:jar:1.0.11
+[DEBUG]   Included: com.google.android:android:jar:4.1.1.4
+[DEBUG]   Included: commons-logging:commons-logging:jar:1.1.1
+[DEBUG]   Included: org.apache.httpcomponents:httpclient:jar:4.0.1
+[DEBUG]   Included: org.apache.httpcomponents:httpcore:jar:4.0.1
+[DEBUG]   Included: org.khronos:opengl-api:jar:gl1.1-android-2.1_r1
+[DEBUG]   Included: xerces:xmlParserAPIs:jar:2.6.2
+[DEBUG]   Included: xpp3:xpp3:jar:1.1.4c
+[DEBUG]   Included: org.json:json:jar:20080701
+[DEBUG]   Included: com.sun.codemodel:codemodel:jar:2.6
+[DEBUG]   Included: com.google.code.gson:gson:jar:2.5
+[DEBUG]   Included: com.squareup.moshi:moshi:jar:1.1.0
+[DEBUG]   Included: com.squareup.okio:okio:jar:1.6.0
+[DEBUG]   Included: commons-lang:commons-lang:jar:2.6
+[DEBUG]   Included: commons-io:commons-io:jar:2.4
+[DEBUG]   Included: javax.validation:validation-api:jar:1.0.0.GA
+[DEBUG]   Included: joda-time:joda-time:jar:2.2
+[DEBUG]   Included: org.codehaus.jackson:jackson-mapper-asl:jar:1.9.11
+[DEBUG]   Included: org.codehaus.jackson:jackson-core-asl:jar:1.9.11
+[DEBUG]   Included: org.apache.commons:commons-lang3:jar:3.2.1
+[DEBUG]   Included: backport-util-concurrent:backport-util-concurrent:jar:3.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.11
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:1.5.15
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:0.6
+[DEBUG]   Included: com.google.code.findbugs:jsr305:jar:2.0.1
+[DEBUG]   Included: com.google.code.findbugs:annotations:jar:1.3.9
+[DEBUG] Configuring mojo org.jsonschema2pojo:jsonschema2pojo-maven-plugin:0.4.24:generate from plugin realm ClassRealm[plugin>org.jsonschema2pojo:jsonschema2pojo-maven-plugin:0.4.24, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@649d209a]
+[DEBUG] Configuring mojo 'org.jsonschema2pojo:jsonschema2pojo-maven-plugin:0.4.24:generate' with basic configurator -->
+[DEBUG]   (f) addCompileSourceRoot = true
+[DEBUG]   (f) annotationStyle = jackson2
+[DEBUG]   (f) constructorsRequiredPropertiesOnly = false
+[DEBUG]   (f) customAnnotator = org.jsonschema2pojo.NoopAnnotator
+[DEBUG]   (f) customRuleFactory = org.jsonschema2pojo.rules.RuleFactory
+[DEBUG]   (f) fileExtensions = []
+[DEBUG]   (f) generateBuilders = false
+[DEBUG]   (f) includeAccessors = true
+[DEBUG]   (f) includeAdditionalProperties = true
+[DEBUG]   (f) includeConstructors = false
+[DEBUG]   (f) includeDynamicAccessors = false
+[DEBUG]   (f) includeHashcodeAndEquals = true
+[DEBUG]   (f) includeJsr303Annotations = true
+[DEBUG]   (f) includeToString = true
+[DEBUG]   (f) initializeCollections = true
+[DEBUG]   (f) outputDirectory = C:\Casino\dev\apache\jsonschema2pojo-plugin-jdk9\pojo\target\generated-sources
+[DEBUG]   (f) outputEncoding = UTF-8
+[DEBUG]   (f) parcelable = false
+[DEBUG]   (f) project = MavenProject: org.openexchange:pojo:1.0.0-SNAPSHOT @ C:\Casino\dev\apache\jsonschema2pojo-plugin-jdk9\pojo\pom.xml
+[DEBUG]   (f) propertyWordDelimiters = - _
+[DEBUG]   (f) removeOldOutput = false
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) sourceDirectory = C:\Casino\dev\apache\jsonschema2pojo-plugin-jdk9\pojo/src/main/resources
+[DEBUG]   (f) sourcePaths = []
+[DEBUG]   (f) sourceType = jsonschema
+[DEBUG]   (f) targetPackage = org.openexchange.pojos
+[DEBUG]   (f) targetVersion = 1.6
+[DEBUG]   (f) useBigDecimals = false
+[DEBUG]   (f) useCommonsLang3 = true
+[DEBUG]   (f) useDoubleNumbers = true
+[DEBUG]   (f) useJodaDates = false
+[DEBUG]   (f) useJodaLocalDates = false
+[DEBUG]   (f) useJodaLocalTimes = false
+[DEBUG]   (f) useLongIntegers = false
+[DEBUG]   (f) usePrimitives = false
+[DEBUG] -- end configuration --
+[DEBUG] Adding project artifact to classpath: C:\Casino\dev\apache\jsonschema2pojo-plugin-jdk9\pojo\target\classes
+[DEBUG] Adding project artifact to classpath: C:\Users\andriyka\.m2\repository\org\springframework\boot\spring-boot-starter-web\1.4.0.RELEASE\spring-boot-starter-web-1.4.0.RELEASE.jar
+[DEBUG] Adding project artifact to classpath: C:\Users\andriyka\.m2\repository\org\springframework\boot\spring-boot-starter\1.4.0.RELEASE\spring-boot-starter-1.4.0.RELEASE.jar
+[DEBUG] Adding project artifact to classpath: C:\Users\andriyka\.m2\repository\org\springframework\boot\spring-boot\1.4.0.RELEASE\spring-boot-1.4.0.RELEASE.jar
+[DEBUG] Adding project artifact to classpath: C:\Users\andriyka\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\1.4.0.RELEASE\spring-boot-autoconfigure-1.4.0.RELEASE.jar
+[DEBUG] Adding project artifact to classpath: C:\Users\andriyka\.m2\repository\org\springframework\boot\spring-boot-starter-logging\1.4.0.RELEASE\spring-boot-starter-logging-1.4.0.RELEASE.jar
+[DEBUG] Adding project artifact to classpath: C:\Users\andriyka\.m2\repository\ch\qos\logback\logback-classic\1.1.7\logback-classic-1.1.7.jar
+[DEBUG] Adding project artifact to classpath: C:\Users\andriyka\.m2\repository\ch\qos\logback\logback-core\1.1.7\logback-core-1.1.7.jar
+[DEBUG] Adding project artifact to classpath: C:\Users\andriyka\.m2\repository\org\slf4j\slf4j-api\1.7.21\slf4j-api-1.7.21.jar
+[DEBUG] Adding project artifact to classpath: C:\Users\andriyka\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.21\jcl-over-slf4j-1.7.21.jar
+[DEBUG] Adding project artifact to classpath: C:\Users\andriyka\.m2\repository\org\slf4j\jul-to-slf4j\1.7.21\jul-to-slf4j-1.7.21.jar
+[DEBUG] Adding project artifact to classpath: C:\Users\andriyka\.m2\repository\org\slf4j\log4j-over-slf4j\1.7.21\log4j-over-slf4j-1.7.21.jar
+[DEBUG] Adding project artifact to classpath: C:\Users\andriyka\.m2\repository\org\springframework\spring-core\4.3.2.RELEASE\spring-core-4.3.2.RELEASE.jar
+[DEBUG] Adding project artifact to classpath: C:\Users\andriyka\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\1.4.0.RELEASE\spring-boot-starter-tomcat-1.4.0.RELEASE.jar
+[DEBUG] Adding project artifact to classpath: C:\Users\andriyka\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\8.5.4\tomcat-embed-core-8.5.4.jar
+[DEBUG] Adding project artifact to classpath: C:\Users\andriyka\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\8.5.4\tomcat-embed-el-8.5.4.jar
+[DEBUG] Adding project artifact to classpath: C:\Users\andriyka\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\8.5.4\tomcat-embed-websocket-8.5.4.jar
+[DEBUG] Adding project artifact to classpath: C:\Users\andriyka\.m2\repository\org\hibernate\hibernate-validator\5.2.4.Final\hibernate-validator-5.2.4.Final.jar
+[DEBUG] Adding project artifact to classpath: C:\Users\andriyka\.m2\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar
+[DEBUG] Adding project artifact to classpath: C:\Users\andriyka\.m2\repository\org\jboss\logging\jboss-logging\3.3.0.Final\jboss-logging-3.3.0.Final.jar
+[DEBUG] Adding project artifact to classpath: C:\Users\andriyka\.m2\repository\com\fasterxml\classmate\1.3.1\classmate-1.3.1.jar
+[DEBUG] Adding project artifact to classpath: C:\Users\andriyka\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.8.1\jackson-databind-2.8.1.jar
+[DEBUG] Adding project artifact to classpath: C:\Users\andriyka\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.8.1\jackson-annotations-2.8.1.jar
+[DEBUG] Adding project artifact to classpath: C:\Users\andriyka\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.8.1\jackson-core-2.8.1.jar
+[DEBUG] Adding project artifact to classpath: C:\Users\andriyka\.m2\repository\org\springframework\spring-web\4.3.2.RELEASE\spring-web-4.3.2.RELEASE.jar
+[DEBUG] Adding project artifact to classpath: C:\Users\andriyka\.m2\repository\org\springframework\spring-aop\4.3.2.RELEASE\spring-aop-4.3.2.RELEASE.jar
+[DEBUG] Adding project artifact to classpath: C:\Users\andriyka\.m2\repository\org\springframework\spring-beans\4.3.2.RELEASE\spring-beans-4.3.2.RELEASE.jar
+[DEBUG] Adding project artifact to classpath: C:\Users\andriyka\.m2\repository\org\springframework\spring-context\4.3.2.RELEASE\spring-context-4.3.2.RELEASE.jar
+[DEBUG] Adding project artifact to classpath: C:\Users\andriyka\.m2\repository\org\springframework\spring-webmvc\4.3.2.RELEASE\spring-webmvc-4.3.2.RELEASE.jar
+[DEBUG] Adding project artifact to classpath: C:\Users\andriyka\.m2\repository\org\springframework\spring-expression\4.3.2.RELEASE\spring-expression-4.3.2.RELEASE.jar
+[DEBUG] Adding project artifact to classpath: C:\Users\andriyka\.m2\repository\org\codehaus\jettison\jettison\1.2\jettison-1.2.jar
+[DEBUG] Adding project artifact to classpath: C:\Users\andriyka\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar
+[DEBUG] Adding project artifact to classpath: C:\Users\andriyka\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] jsonschema2pojo-plugin-jdk9 ::: jsonschema2pojo-plugin-jdk9 SUCCESS [  1.192 s]
+[INFO] openexchange ::: pojo .............................. FAILURE [  1.664 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.711 s
+[INFO] Finished at: 2016-08-31T17:25:31+03:00
+[INFO] Final Memory: 20M/68M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.jsonschema2pojo:jsonschema2pojo-maven-plugin:0.4.24:generate (default) on project pojo: Execution default of goal org.jsonschema2pojo:jsonschema2pojo-maven-plugin:0.4.24:generate failed: A required class was missing while executing org.jsonschema2pojo:jsonschema2pojo-maven-plugin:0.4.24:generate: javax/annotation/Generated
+[ERROR] -----------------------------------------------------
+[ERROR] realm =    plugin>org.jsonschema2pojo:jsonschema2pojo-maven-plugin:0.4.24
+[ERROR] strategy = org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy
+[ERROR] urls[0] = file:/C:/Users/andriyka/.m2/repository/org/jsonschema2pojo/jsonschema2pojo-maven-plugin/0.4.24/jsonschema2pojo-maven-plugin-0.4.24.jar
+[ERROR] urls[1] = file:/C:/Users/andriyka/.m2/repository/org/jsonschema2pojo/jsonschema2pojo-core/0.4.24/jsonschema2pojo-core-0.4.24.jar
+[ERROR] urls[2] = file:/C:/Users/andriyka/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.7.0/jackson-databind-2.7.0.jar
+[ERROR] urls[3] = file:/C:/Users/andriyka/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.7.0/jackson-annotations-2.7.0.jar
+[ERROR] urls[4] = file:/C:/Users/andriyka/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.7.0/jackson-core-2.7.0.jar
+[ERROR] urls[5] = file:/C:/Users/andriyka/.m2/repository/com/google/code/javaparser/javaparser/1.0.11/javaparser-1.0.11.jar
+[ERROR] urls[6] = file:/C:/Users/andriyka/.m2/repository/com/google/android/android/4.1.1.4/android-4.1.1.4.jar
+[ERROR] urls[7] = file:/C:/Users/andriyka/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar
+[ERROR] urls[8] = file:/C:/Users/andriyka/.m2/repository/org/apache/httpcomponents/httpclient/4.0.1/httpclient-4.0.1.jar
+[ERROR] urls[9] = file:/C:/Users/andriyka/.m2/repository/org/apache/httpcomponents/httpcore/4.0.1/httpcore-4.0.1.jar
+[ERROR] urls[10] = file:/C:/Users/andriyka/.m2/repository/org/khronos/opengl-api/gl1.1-android-2.1_r1/opengl-api-gl1.1-android-2.1_r1.jar
+[ERROR] urls[11] = file:/C:/Users/andriyka/.m2/repository/xerces/xmlParserAPIs/2.6.2/xmlParserAPIs-2.6.2.jar
+[ERROR] urls[12] = file:/C:/Users/andriyka/.m2/repository/xpp3/xpp3/1.1.4c/xpp3-1.1.4c.jar
+[ERROR] urls[13] = file:/C:/Users/andriyka/.m2/repository/org/json/json/20080701/json-20080701.jar
+[ERROR] urls[14] = file:/C:/Users/andriyka/.m2/repository/com/sun/codemodel/codemodel/2.6/codemodel-2.6.jar
+[ERROR] urls[15] = file:/C:/Users/andriyka/.m2/repository/com/google/code/gson/gson/2.5/gson-2.5.jar
+[ERROR] urls[16] = file:/C:/Users/andriyka/.m2/repository/com/squareup/moshi/moshi/1.1.0/moshi-1.1.0.jar
+[ERROR] urls[17] = file:/C:/Users/andriyka/.m2/repository/com/squareup/okio/okio/1.6.0/okio-1.6.0.jar
+[ERROR] urls[18] = file:/C:/Users/andriyka/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar
+[ERROR] urls[19] = file:/C:/Users/andriyka/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar
+[ERROR] urls[20] = file:/C:/Users/andriyka/.m2/repository/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA.jar
+[ERROR] urls[21] = file:/C:/Users/andriyka/.m2/repository/joda-time/joda-time/2.2/joda-time-2.2.jar
+[ERROR] urls[22] = file:/C:/Users/andriyka/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.9.11/jackson-mapper-asl-1.9.11.jar
+[ERROR] urls[23] = file:/C:/Users/andriyka/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.9.11/jackson-core-asl-1.9.11.jar
+[ERROR] urls[24] = file:/C:/Users/andriyka/.m2/repository/org/apache/commons/commons-lang3/3.2.1/commons-lang3-3.2.1.jar
+[ERROR] urls[25] = file:/C:/Users/andriyka/.m2/repository/backport-util-concurrent/backport-util-concurrent/3.1/backport-util-concurrent-3.1.jar
+[ERROR] urls[26] = file:/C:/Users/andriyka/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.11/plexus-interpolation-1.11.jar
+[ERROR] urls[27] = file:/C:/Users/andriyka/.m2/repository/org/codehaus/plexus/plexus-utils/1.5.15/plexus-utils-1.5.15.jar
+[ERROR] urls[28] = file:/C:/Users/andriyka/.m2/repository/org/apache/maven/shared/maven-shared-utils/0.6/maven-shared-utils-0.6.jar
+[ERROR] urls[29] = file:/C:/Users/andriyka/.m2/repository/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.jar
+[ERROR] urls[30] = file:/C:/Users/andriyka/.m2/repository/com/google/code/findbugs/annotations/1.3.9/annotations-1.3.9.jar
+[ERROR] Number of foreign imports: 1
+[ERROR] import: Entry[import  from realm ClassRealm[maven.api, parent: null]]
+[ERROR] 
+[ERROR] -----------------------------------------------------: javax.annotation.Generated
+[ERROR] -> [Help 1]
+org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.jsonschema2pojo:jsonschema2pojo-maven-plugin:0.4.24:generate (default) on project pojo: Execution default of goal org.jsonschema2pojo:jsonschema2pojo-maven-plugin:0.4.24:generate failed: A required class was missing while executing org.jsonschema2pojo:jsonschema2pojo-maven-plugin:0.4.24:generate: javax/annotation/Generated
+-----------------------------------------------------
+realm =    plugin>org.jsonschema2pojo:jsonschema2pojo-maven-plugin:0.4.24
+strategy = org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy
+urls[0] = file:/C:/Users/andriyka/.m2/repository/org/jsonschema2pojo/jsonschema2pojo-maven-plugin/0.4.24/jsonschema2pojo-maven-plugin-0.4.24.jar
+urls[1] = file:/C:/Users/andriyka/.m2/repository/org/jsonschema2pojo/jsonschema2pojo-core/0.4.24/jsonschema2pojo-core-0.4.24.jar
+urls[2] = file:/C:/Users/andriyka/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.7.0/jackson-databind-2.7.0.jar
+urls[3] = file:/C:/Users/andriyka/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.7.0/jackson-annotations-2.7.0.jar
+urls[4] = file:/C:/Users/andriyka/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.7.0/jackson-core-2.7.0.jar
+urls[5] = file:/C:/Users/andriyka/.m2/repository/com/google/code/javaparser/javaparser/1.0.11/javaparser-1.0.11.jar
+urls[6] = file:/C:/Users/andriyka/.m2/repository/com/google/android/android/4.1.1.4/android-4.1.1.4.jar
+urls[7] = file:/C:/Users/andriyka/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar
+urls[8] = file:/C:/Users/andriyka/.m2/repository/org/apache/httpcomponents/httpclient/4.0.1/httpclient-4.0.1.jar
+urls[9] = file:/C:/Users/andriyka/.m2/repository/org/apache/httpcomponents/httpcore/4.0.1/httpcore-4.0.1.jar
+urls[10] = file:/C:/Users/andriyka/.m2/repository/org/khronos/opengl-api/gl1.1-android-2.1_r1/opengl-api-gl1.1-android-2.1_r1.jar
+urls[11] = file:/C:/Users/andriyka/.m2/repository/xerces/xmlParserAPIs/2.6.2/xmlParserAPIs-2.6.2.jar
+urls[12] = file:/C:/Users/andriyka/.m2/repository/xpp3/xpp3/1.1.4c/xpp3-1.1.4c.jar
+urls[13] = file:/C:/Users/andriyka/.m2/repository/org/json/json/20080701/json-20080701.jar
+urls[14] = file:/C:/Users/andriyka/.m2/repository/com/sun/codemodel/codemodel/2.6/codemodel-2.6.jar
+urls[15] = file:/C:/Users/andriyka/.m2/repository/com/google/code/gson/gson/2.5/gson-2.5.jar
+urls[16] = file:/C:/Users/andriyka/.m2/repository/com/squareup/moshi/moshi/1.1.0/moshi-1.1.0.jar
+urls[17] = file:/C:/Users/andriyka/.m2/repository/com/squareup/okio/okio/1.6.0/okio-1.6.0.jar
+urls[18] = file:/C:/Users/andriyka/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar
+urls[19] = file:/C:/Users/andriyka/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar
+urls[20] = file:/C:/Users/andriyka/.m2/repository/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA.jar
+urls[21] = file:/C:/Users/andriyka/.m2/repository/joda-time/joda-time/2.2/joda-time-2.2.jar
+urls[22] = file:/C:/Users/andriyka/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.9.11/jackson-mapper-asl-1.9.11.jar
+urls[23] = file:/C:/Users/andriyka/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.9.11/jackson-core-asl-1.9.11.jar
+urls[24] = file:/C:/Users/andriyka/.m2/repository/org/apache/commons/commons-lang3/3.2.1/commons-lang3-3.2.1.jar
+urls[25] = file:/C:/Users/andriyka/.m2/repository/backport-util-concurrent/backport-util-concurrent/3.1/backport-util-concurrent-3.1.jar
+urls[26] = file:/C:/Users/andriyka/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.11/plexus-interpolation-1.11.jar
+urls[27] = file:/C:/Users/andriyka/.m2/repository/org/codehaus/plexus/plexus-utils/1.5.15/plexus-utils-1.5.15.jar
+urls[28] = file:/C:/Users/andriyka/.m2/repository/org/apache/maven/shared/maven-shared-utils/0.6/maven-shared-utils-0.6.jar
+urls[29] = file:/C:/Users/andriyka/.m2/repository/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.jar
+urls[30] = file:/C:/Users/andriyka/.m2/repository/com/google/code/findbugs/annotations/1.3.9/annotations-1.3.9.jar
+Number of foreign imports: 1
+import: Entry[import  from realm ClassRealm[maven.api, parent: null]]
+
+-----------------------------------------------------
+
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:212)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:116)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:80)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:51)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:307)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:193)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:106)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:863)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:288)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:199)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(java.base@9-ea/Native Method)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(java.base@9-ea/NativeMethodAccessorImpl.java:62)
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(java.base@9-ea/DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(java.base@9-ea/Method.java:535)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)
+Caused by: org.apache.maven.plugin.PluginExecutionException: Execution default of goal org.jsonschema2pojo:jsonschema2pojo-maven-plugin:0.4.24:generate failed: A required class was missing while executing org.jsonschema2pojo:jsonschema2pojo-maven-plugin:0.4.24:generate: javax/annotation/Generated
+-----------------------------------------------------
+realm =    plugin>org.jsonschema2pojo:jsonschema2pojo-maven-plugin:0.4.24
+strategy = org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy
+urls[0] = file:/C:/Users/andriyka/.m2/repository/org/jsonschema2pojo/jsonschema2pojo-maven-plugin/0.4.24/jsonschema2pojo-maven-plugin-0.4.24.jar
+urls[1] = file:/C:/Users/andriyka/.m2/repository/org/jsonschema2pojo/jsonschema2pojo-core/0.4.24/jsonschema2pojo-core-0.4.24.jar
+urls[2] = file:/C:/Users/andriyka/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.7.0/jackson-databind-2.7.0.jar
+urls[3] = file:/C:/Users/andriyka/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.7.0/jackson-annotations-2.7.0.jar
+urls[4] = file:/C:/Users/andriyka/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.7.0/jackson-core-2.7.0.jar
+urls[5] = file:/C:/Users/andriyka/.m2/repository/com/google/code/javaparser/javaparser/1.0.11/javaparser-1.0.11.jar
+urls[6] = file:/C:/Users/andriyka/.m2/repository/com/google/android/android/4.1.1.4/android-4.1.1.4.jar
+urls[7] = file:/C:/Users/andriyka/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar
+urls[8] = file:/C:/Users/andriyka/.m2/repository/org/apache/httpcomponents/httpclient/4.0.1/httpclient-4.0.1.jar
+urls[9] = file:/C:/Users/andriyka/.m2/repository/org/apache/httpcomponents/httpcore/4.0.1/httpcore-4.0.1.jar
+urls[10] = file:/C:/Users/andriyka/.m2/repository/org/khronos/opengl-api/gl1.1-android-2.1_r1/opengl-api-gl1.1-android-2.1_r1.jar
+urls[11] = file:/C:/Users/andriyka/.m2/repository/xerces/xmlParserAPIs/2.6.2/xmlParserAPIs-2.6.2.jar
+urls[12] = file:/C:/Users/andriyka/.m2/repository/xpp3/xpp3/1.1.4c/xpp3-1.1.4c.jar
+urls[13] = file:/C:/Users/andriyka/.m2/repository/org/json/json/20080701/json-20080701.jar
+urls[14] = file:/C:/Users/andriyka/.m2/repository/com/sun/codemodel/codemodel/2.6/codemodel-2.6.jar
+urls[15] = file:/C:/Users/andriyka/.m2/repository/com/google/code/gson/gson/2.5/gson-2.5.jar
+urls[16] = file:/C:/Users/andriyka/.m2/repository/com/squareup/moshi/moshi/1.1.0/moshi-1.1.0.jar
+urls[17] = file:/C:/Users/andriyka/.m2/repository/com/squareup/okio/okio/1.6.0/okio-1.6.0.jar
+urls[18] = file:/C:/Users/andriyka/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar
+urls[19] = file:/C:/Users/andriyka/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar
+urls[20] = file:/C:/Users/andriyka/.m2/repository/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA.jar
+urls[21] = file:/C:/Users/andriyka/.m2/repository/joda-time/joda-time/2.2/joda-time-2.2.jar
+urls[22] = file:/C:/Users/andriyka/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.9.11/jackson-mapper-asl-1.9.11.jar
+urls[23] = file:/C:/Users/andriyka/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.9.11/jackson-core-asl-1.9.11.jar
+urls[24] = file:/C:/Users/andriyka/.m2/repository/org/apache/commons/commons-lang3/3.2.1/commons-lang3-3.2.1.jar
+urls[25] = file:/C:/Users/andriyka/.m2/repository/backport-util-concurrent/backport-util-concurrent/3.1/backport-util-concurrent-3.1.jar
+urls[26] = file:/C:/Users/andriyka/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.11/plexus-interpolation-1.11.jar
+urls[27] = file:/C:/Users/andriyka/.m2/repository/org/codehaus/plexus/plexus-utils/1.5.15/plexus-utils-1.5.15.jar
+urls[28] = file:/C:/Users/andriyka/.m2/repository/org/apache/maven/shared/maven-shared-utils/0.6/maven-shared-utils-0.6.jar
+urls[29] = file:/C:/Users/andriyka/.m2/repository/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.jar
+urls[30] = file:/C:/Users/andriyka/.m2/repository/com/google/code/findbugs/annotations/1.3.9/annotations-1.3.9.jar
+Number of foreign imports: 1
+import: Entry[import  from realm ClassRealm[maven.api, parent: null]]
+
+-----------------------------------------------------
+
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:168)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:207)
+	... 20 more
+Caused by: org.apache.maven.plugin.PluginContainerException: A required class was missing while executing org.jsonschema2pojo:jsonschema2pojo-maven-plugin:0.4.24:generate: javax/annotation/Generated
+-----------------------------------------------------
+realm =    plugin>org.jsonschema2pojo:jsonschema2pojo-maven-plugin:0.4.24
+strategy = org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy
+urls[0] = file:/C:/Users/andriyka/.m2/repository/org/jsonschema2pojo/jsonschema2pojo-maven-plugin/0.4.24/jsonschema2pojo-maven-plugin-0.4.24.jar
+urls[1] = file:/C:/Users/andriyka/.m2/repository/org/jsonschema2pojo/jsonschema2pojo-core/0.4.24/jsonschema2pojo-core-0.4.24.jar
+urls[2] = file:/C:/Users/andriyka/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.7.0/jackson-databind-2.7.0.jar
+urls[3] = file:/C:/Users/andriyka/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.7.0/jackson-annotations-2.7.0.jar
+urls[4] = file:/C:/Users/andriyka/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.7.0/jackson-core-2.7.0.jar
+urls[5] = file:/C:/Users/andriyka/.m2/repository/com/google/code/javaparser/javaparser/1.0.11/javaparser-1.0.11.jar
+urls[6] = file:/C:/Users/andriyka/.m2/repository/com/google/android/android/4.1.1.4/android-4.1.1.4.jar
+urls[7] = file:/C:/Users/andriyka/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar
+urls[8] = file:/C:/Users/andriyka/.m2/repository/org/apache/httpcomponents/httpclient/4.0.1/httpclient-4.0.1.jar
+urls[9] = file:/C:/Users/andriyka/.m2/repository/org/apache/httpcomponents/httpcore/4.0.1/httpcore-4.0.1.jar
+urls[10] = file:/C:/Users/andriyka/.m2/repository/org/khronos/opengl-api/gl1.1-android-2.1_r1/opengl-api-gl1.1-android-2.1_r1.jar
+urls[11] = file:/C:/Users/andriyka/.m2/repository/xerces/xmlParserAPIs/2.6.2/xmlParserAPIs-2.6.2.jar
+urls[12] = file:/C:/Users/andriyka/.m2/repository/xpp3/xpp3/1.1.4c/xpp3-1.1.4c.jar
+urls[13] = file:/C:/Users/andriyka/.m2/repository/org/json/json/20080701/json-20080701.jar
+urls[14] = file:/C:/Users/andriyka/.m2/repository/com/sun/codemodel/codemodel/2.6/codemodel-2.6.jar
+urls[15] = file:/C:/Users/andriyka/.m2/repository/com/google/code/gson/gson/2.5/gson-2.5.jar
+urls[16] = file:/C:/Users/andriyka/.m2/repository/com/squareup/moshi/moshi/1.1.0/moshi-1.1.0.jar
+urls[17] = file:/C:/Users/andriyka/.m2/repository/com/squareup/okio/okio/1.6.0/okio-1.6.0.jar
+urls[18] = file:/C:/Users/andriyka/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar
+urls[19] = file:/C:/Users/andriyka/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar
+urls[20] = file:/C:/Users/andriyka/.m2/repository/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA.jar
+urls[21] = file:/C:/Users/andriyka/.m2/repository/joda-time/joda-time/2.2/joda-time-2.2.jar
+urls[22] = file:/C:/Users/andriyka/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.9.11/jackson-mapper-asl-1.9.11.jar
+urls[23] = file:/C:/Users/andriyka/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.9.11/jackson-core-asl-1.9.11.jar
+urls[24] = file:/C:/Users/andriyka/.m2/repository/org/apache/commons/commons-lang3/3.2.1/commons-lang3-3.2.1.jar
+urls[25] = file:/C:/Users/andriyka/.m2/repository/backport-util-concurrent/backport-util-concurrent/3.1/backport-util-concurrent-3.1.jar
+urls[26] = file:/C:/Users/andriyka/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.11/plexus-interpolation-1.11.jar
+urls[27] = file:/C:/Users/andriyka/.m2/repository/org/codehaus/plexus/plexus-utils/1.5.15/plexus-utils-1.5.15.jar
+urls[28] = file:/C:/Users/andriyka/.m2/repository/org/apache/maven/shared/maven-shared-utils/0.6/maven-shared-utils-0.6.jar
+urls[29] = file:/C:/Users/andriyka/.m2/repository/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.jar
+urls[30] = file:/C:/Users/andriyka/.m2/repository/com/google/code/findbugs/annotations/1.3.9/annotations-1.3.9.jar
+Number of foreign imports: 1
+import: Entry[import  from realm ClassRealm[maven.api, parent: null]]
+
+-----------------------------------------------------
+
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:166)
+	... 21 more
+Caused by: java.lang.NoClassDefFoundError: javax/annotation/Generated
+	at org.jsonschema2pojo.rules.ObjectRule.addGeneratedAnnotation(ObjectRule.java:362)
+	at org.jsonschema2pojo.rules.ObjectRule.apply(ObjectRule.java:111)
+	at org.jsonschema2pojo.rules.ObjectRule.apply(ObjectRule.java:70)
+	at org.jsonschema2pojo.rules.TypeRule.apply(TypeRule.java:90)
+	at org.jsonschema2pojo.rules.TypeRule.apply(TypeRule.java:40)
+	at org.jsonschema2pojo.rules.SchemaRule.apply(SchemaRule.java:73)
+	at org.jsonschema2pojo.rules.SchemaRule.apply(SchemaRule.java:66)
+	at org.jsonschema2pojo.rules.SchemaRule.apply(SchemaRule.java:30)
+	at org.jsonschema2pojo.SchemaMapper.generate(SchemaMapper.java:92)
+	at org.jsonschema2pojo.Jsonschema2Pojo.generateRecursive(Jsonschema2Pojo.java:109)
+	at org.jsonschema2pojo.Jsonschema2Pojo.generate(Jsonschema2Pojo.java:73)
+	at org.jsonschema2pojo.maven.Jsonschema2PojoMojo.execute(Jsonschema2PojoMojo.java:594)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:134)
+	... 21 more
+Caused by: java.lang.ClassNotFoundException: javax.annotation.Generated
+	at org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass(SelfFirstStrategy.java:50)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass(ClassRealm.java:271)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:247)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:239)
+	... 34 more
+[ERROR] 
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/PluginContainerException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :pojo
