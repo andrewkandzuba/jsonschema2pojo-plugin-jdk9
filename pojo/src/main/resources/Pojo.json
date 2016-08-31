@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "description": "Pojo sample",
+  "type": "object",
+  "id": "Pojo",
+  "additionalProperties" : false,
+  "generate-builders": true,
+  "properties": {
+    "code": {
+      "type": "integer",
+      "required": true
+    },
+    "info": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
