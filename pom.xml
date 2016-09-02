@@ -107,7 +107,7 @@
                 <plugin>
                     <groupId>org.jsonschema2pojo</groupId>
                     <artifactId>jsonschema2pojo-maven-plugin</artifactId>
-                    <version>0.4.24</version>
+                    <version>0.4.26</version>
                     <executions>
                         <execution>
                             <phase>generate-sources</phase>
